@@ -6,7 +6,7 @@ class Lamp extends Component {
     this.state = {
       on: props.on
     };
-    
+
   }
   handleClick = () => {
     console.log('Button clicked');
